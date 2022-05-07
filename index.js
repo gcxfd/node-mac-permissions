@@ -1,4 +1,4 @@
-const permissions = require('bindings')('permissions.node')
+const permissions = require('./build/Release/permissions.node')
 
 function getAuthStatus(type) {
   const validTypes = [
