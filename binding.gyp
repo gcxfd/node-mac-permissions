@@ -32,8 +32,7 @@
         "-framework EventKit",
         "-framework IOKit",
         "-framework Photos",
-        "-framework Speech",
-        "-framework Storekit"
+        "-framework Speech"
       ]
     }
   }]
