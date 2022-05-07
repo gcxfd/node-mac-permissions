@@ -11,7 +11,6 @@ function getAuthStatus(type) {
     'input-monitoring',
     'location',
     'microphone',
-    'music-library',
     'photos',
     'reminders',
     'speech-recognition',
