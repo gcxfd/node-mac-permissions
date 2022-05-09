@@ -1,6 +1,6 @@
 {
   "name": "@rmw/node-mac-permissions",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "description": "A native node module to manage system permissions on macOS",
   "main": "index.js",
   "types": "index.d.ts",
