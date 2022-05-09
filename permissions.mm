@@ -686,9 +686,10 @@ Napi::Promise AskForInputMonitoringAccess(const Napi::CallbackInfo &info) {
 
 // Request Screen Capture Access.
 void AskForScreenCaptureAccess(const Napi::CallbackInfo &info) {
-  if (@available(macOS 11, *)) {
-    CGRequestScreenCaptureAccess();
-  } else if (@available(macOS 10.15, *)) {
+  //if (@available(macOS 11, *)) {
+  //  CGRequestScreenCaptureAccess();
+  //} else
+  if (@available(macOS 10.15, *)) {
     // Tries to create a capture stream. This is necessary to add the app back
     // to the list in sysprefs if the user previously denied.
     // https://stackoverflow.com/questions/56597221/detecting-screen-recording-settings-on-macos-catalina
